@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioteX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header1>
+        <div class="logo-section">
+            <img src="BiblioteX-logo-transparent.png" alt="BiblioteX Logo" class="logo">
+        </div>
+        <input type="text" placeholder="Search books..." class="search-bar">
+
+        <nav class="main-nav">
+                <button class="nav-btn" onclick="location.href='tags.html'">Tags</button>
+                <button class="nav-btn" onclick="location.href='collections.html'">Collections</button>
+                <button class="nav-btn" onclick="location.href='account.html'">Account</button>
+        </nav>
+    </header1>
+
+    <main>
+        <section class="book-section" id="featured">
+            <h2>Featured</h2>
+            <ul class="book-list">
+                <!-- Featured books will go here -->
+            </ul>
+        </section>
+
+        <section class="book-section" id="popular">
+            <h2>Popular</h2>
+            <ul class="book-list">
+                <!-- Popular books will go here -->
+            </ul>
+        </section>
+
+        <section class="book-section" id="new">
+            <h2>New</h2>
+            <ul class="book-list">
+                <!-- New books will go here -->
+            </ul>
+        </section>
+    </main>
+    <script src="books-search.js"></script>
+</body>
+</html>

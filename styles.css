@@ -1,0 +1,53 @@
+/* Import Fredoka font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+
+header1 {
+    background-color: #b3d8fc;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #0080ff;
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    min-width: 100px;
+    height: 40px;
+
+    display: flex;             /* flex inside each button only */
+    align-items: center;       /* vertical centering inside button */
+    justify-content: center;   /* horizontal centering inside button */
+    text-align: center;
+}
+
+nav {
+    display: flex;             /* buttons in a row */
+    align-items: center;
+    gap: 10px;                 /* spacing between buttons */
+    margin-right: 20px;        /* space from right edge */
+    justify-content: flex-start; /* ensure buttons stay horizontal */
+}
+
+body {
+    background-color: white;
+    border-color: black;
+    margin: 0;
+}
+
+.logo {
+    height: 100px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    max-width: 400px;
+    margin: 0 20px;
+}
